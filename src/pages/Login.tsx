@@ -19,7 +19,6 @@ const Login = () => {
   const { login } = useAuthContext();
 
   const onSubmitHandler = (data: LoginFormInputs) => {
-    console.log(data);
     login(data);
   };
 

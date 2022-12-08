@@ -37,7 +37,6 @@ const CreateProducts = () => {
   // console.log(sampleName);
   // console.log(sampleType);
   // console.log(sampleLocation);
-  console.log(userProducts);
 
   const data = watch(["name", "type", "location"]);
 

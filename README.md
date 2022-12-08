@@ -1,4 +1,30 @@
-#client
+# zerowaste-client
+
+# zerowaste-client
+
+Goal is to create a platform to showcase zero waste shops in Hong Kong and promote sustainable living lifestyle.
+
+Technologies used (Front)  
+React with TypeScript  
+Tailwind CSS
+
+Technologies used (Server)  
+Express JS  
+PostgreSQL in dbeaver  
+Sequelize
+
+## Run in the local
+
+```bash
+npm install / yarn install
+npm start / yarn start
+```
+
+## Link
+
+## Resources used
+
+https://zerowaste-client.onrender.com/
 
 https://dev.to/elisealcala/react-context-with-usereducer-and-typescript-4obm
 
@@ -25,5 +51,3 @@ https://stackoverflow.com/questions/58473477/angular-filereader-onloadend-return
 // Instagram (pls provide link)
 
 https://stackoverflow.com/questions/59636806/react-router-link-in-select-option
-# zerowaste-client
-# zerowaste-client

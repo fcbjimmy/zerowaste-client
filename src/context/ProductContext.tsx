@@ -252,7 +252,6 @@ export const ProductContextProvider = ({ children }: Props) => {
   const deleteProduct = async (shopId: number) => {
     try {
       dispatch({ type: "SETUP_PRODUCT_BEGIN" });
-      console.log(shopId);
       const {
         data: { msg },
       } = await productFetch.delete(`product/deleteProduct/${shopId}`);
@@ -270,7 +269,6 @@ export const ProductContextProvider = ({ children }: Props) => {
   const deleteProductByAdmin = async (shopId: number) => {
     try {
       dispatch({ type: "SETUP_PRODUCT_BEGIN" });
-      console.log(shopId);
       const {
         data: { msg },
       } = await productFetch.delete(`product/deleteProductByAdmin/${shopId}`);
