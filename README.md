@@ -26,3 +26,4 @@ https://stackoverflow.com/questions/58473477/angular-filereader-onloadend-return
 
 https://stackoverflow.com/questions/59636806/react-router-link-in-select-option
 # zerowaste-client
+# zerowaste-client
