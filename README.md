@@ -1,7 +1,5 @@
 # zerowaste-client
 
-# zerowaste-client
-
 Goal is to create a platform to showcase zero waste shops in Hong Kong and promote sustainable living lifestyle.
 
 Technologies used (Front)  
