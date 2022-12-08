@@ -82,7 +82,7 @@ export const ProductContextProvider = ({ children }: Props) => {
   useEffect(() => {}, [user, token]);
 
   const productFetch = axios.create({
-    baseURL: "/api/v1",
+    baseURL: "https://zerowaste-server.onrender.com/api/v1",
   });
 
   productFetch.interceptors.request.use(

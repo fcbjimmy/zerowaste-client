@@ -49,7 +49,7 @@ export const AuthContextProvider = ({ children }: Props) => {
   useEffect(() => {}, []);
 
   const authFetch = axios.create({
-    baseURL: "/api/v1",
+    baseURL: "https://zerowaste-server.onrender.com/api/v1",
   });
 
   authFetch.interceptors.request.use(
