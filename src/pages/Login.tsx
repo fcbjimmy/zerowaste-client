@@ -42,6 +42,11 @@ const Login = () => {
               <h1 className="form-h1">Sign in into your account</h1>
               <ul>
                 <li className="flex flex-col">
+                  <p>for Demo</p>
+                  <p>Email: demo@gmail.com</p>
+                  <p>Password: 123456</p>
+                </li>
+                <li className="flex flex-col">
                   <p className="form-error">{errors.email?.message}</p>
                   <label className="hidden" htmlFor="email">
                     Email
